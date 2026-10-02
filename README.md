@@ -8,8 +8,8 @@ Dibuat untuk memenuhi **Tugas 1 — Enrichment for Machine Learning Class (Indiv
 
 | | |
 |---|---|
-| **Nama** | *(isi nama kamu)* |
-| **NIM** | *(isi NIM kamu)* |
+| **Nama** | *Ahmad GHazali EL-Faruqi Hsb* |
+| **NIM** | *101032330080* |
 | **Mata Kuliah** | Machine Learning |
 
 ---
