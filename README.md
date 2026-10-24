@@ -25,7 +25,10 @@ Practical-Statistics-for-Data-Scientists/
     ├── Chapter1_Exploratory_Data_Analysis.ipynb
     ├── Chapter2_Data_and_Sampling_Distributions.ipynb
     ├── Chapter3_Statistical_Experiments_and_Significance_Testing.ipynb
-    └── Chapter4_Regression_and_Prediction.ipynb
+    ├── Chapter4_Regression_and_Prediction.ipynb
+    ├── Chapter5_Classification.ipynb
+    ├── Chapter6_Statistical_Machine_Learning.ipynb
+    └── Chapter7_Unsupervised_Learning.ipynb
 ```
 
 Setiap notebook disusun dengan pola: **teori → kode → interpretasi output**, untuk setiap sub-bab, lalu ditutup dengan **ringkasan chapter**.
@@ -49,6 +52,18 @@ Membahas cara merancang eksperimen (**A/B testing**) dan menentukan apakah perbe
 ### [Chapter 4 — Regression and Prediction](notebooks/Chapter4_Regression_and_Prediction.ipynb)
 Membahas **regresi linear** untuk penjelasan dan prediksi: **simple dan multiple linear regression**, least squares, evaluasi model (**RMSE, R², t-stat, p-value**), model selection (**AIC, stepwise regression**), dan **weighted regression**. Topik lainnya meliputi prediction interval vs confidence interval, **dummy variables** untuk variabel kategorikal, interpretasi koefisien (**multicollinearity, confounding, interaction**), **regression diagnostics** (outlier, influential values, heteroskedasticity, partial residual plot), serta model non-linear (**polynomial, spline, GAM**). Sebagai materi tambahan, dibahas juga **Lasso regularization**.
 **Dataset:** `LungDisease.csv`, `house_sales.csv`
+
+### [Chapter 5 — Classification](notebooks/Chapter5_Classification.ipynb)
+Membahas cara memprediksi **kategori** (misalnya pinjaman *default* atau lunas). Topiknya meliputi **Naive Bayes** (dan alasan Bayesian eksak tidak praktis), **Discriminant Analysis** (matriks kovarians, Fisher's LDA), serta **Logistic Regression** (fungsi logit, GLM, *odds ratio*, interpretasi koefisien). Chapter ini juga membahas **evaluasi model klasifikasi**: confusion matrix, *rare class problem*, **precision, recall, specificity**, **ROC curve, AUC**, dan **lift**. Bagian terakhir membahas **strategi untuk data tidak seimbang**: undersampling, oversampling/up-weighting, **SMOTE**, dan klasifikasi berbasis biaya.
+**Dataset:** `loan3000.csv`, `loan_data.csv.gz`, `full_train_set.csv.gz`
+
+### [Chapter 6 — Statistical Machine Learning](notebooks/Chapter6_Statistical_Machine_Learning.ipynb)
+Membahas metode prediksi yang *data-driven* dan tidak mengasumsikan bentuk model tertentu. Topiknya meliputi **K-Nearest Neighbors** (metrik jarak, one-hot encoding, standardisasi, memilih K, KNN sebagai *feature engine*), **Tree Models** (recursive partitioning, impurity Gini/entropy, kriteria berhenti, regression tree), **Bagging dan Random Forest** (variable importance, hyperparameter), serta **Boosting** dengan **XGBoost** (regularisasi untuk mencegah overfitting, tuning hyperparameter dengan cross-validation).
+**Dataset:** `loan200.csv`, `loan_data.csv.gz`
+
+### [Chapter 7 — Unsupervised Learning](notebooks/Chapter7_Unsupervised_Learning.ipynb)
+Membahas cara menemukan struktur dalam data **tanpa label**. Topiknya meliputi **Principal Components Analysis** (menghitung dan menginterpretasi komponen utama, *scree plot*, *loadings*) dan **Correspondence Analysis** untuk data kategorikal, **K-Means Clustering** (algoritma, interpretasi cluster, *elbow method*), **Hierarchical Clustering** (dendrogram, algoritma agglomerative, ukuran dissimilarity/linkage), dan **Model-Based Clustering** (distribusi normal multivariat, *Gaussian mixture*, pemilihan jumlah cluster dengan BIC). Chapter ditutup dengan pembahasan **scaling dan variabel kategorikal**: pentingnya standardisasi, variabel dominan, **Gower's distance**, dan masalah clustering pada data campuran.
+**Dataset:** `sp500_data.csv.gz`, `sp500_sectors.csv`, `housetasks.csv`, `loan_data.csv.gz`
 
 ---
 

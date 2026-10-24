@@ -8,4 +8,8 @@ scikit-learn
 wquantiles
 dmba
 pygam
+imbalanced-learn
+xgboost
+prince
+adjustText
 jupyter
