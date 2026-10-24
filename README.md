@@ -59,7 +59,7 @@ Membahas cara memprediksi **kategori** (misalnya pinjaman *default* atau lunas).
 
 ### [Chapter 6 — Statistical Machine Learning](notebooks/Chapter6_Statistical_Machine_Learning.ipynb)
 Membahas metode prediksi yang *data-driven* dan tidak mengasumsikan bentuk model tertentu. Topiknya meliputi **K-Nearest Neighbors** (metrik jarak, one-hot encoding, standardisasi, memilih K, KNN sebagai *feature engine*), **Tree Models** (recursive partitioning, impurity Gini/entropy, kriteria berhenti, regression tree), **Bagging dan Random Forest** (variable importance, hyperparameter), serta **Boosting** dengan **XGBoost** (regularisasi untuk mencegah overfitting, tuning hyperparameter dengan cross-validation).
-**Dataset:** `loan200.csv`, `loan_data.csv.gz`
+**Dataset:** `loan200.csv`, `loan_data.csv.gz`, `house_sales.csv`
 
 ### [Chapter 7 — Unsupervised Learning](notebooks/Chapter7_Unsupervised_Learning.ipynb)
 Membahas cara menemukan struktur dalam data **tanpa label**. Topiknya meliputi **Principal Components Analysis** (menghitung dan menginterpretasi komponen utama, *scree plot*, *loadings*) dan **Correspondence Analysis** untuk data kategorikal, **K-Means Clustering** (algoritma, interpretasi cluster, *elbow method*), **Hierarchical Clustering** (dendrogram, algoritma agglomerative, ukuran dissimilarity/linkage), dan **Model-Based Clustering** (distribusi normal multivariat, *Gaussian mixture*, pemilihan jumlah cluster dengan BIC). Chapter ditutup dengan pembahasan **scaling dan variabel kategorikal**: pentingnya standardisasi, variabel dominan, **Gower's distance**, dan masalah clustering pada data campuran.
